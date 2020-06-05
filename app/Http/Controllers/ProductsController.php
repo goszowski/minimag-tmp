@@ -18,5 +18,10 @@ class ProductsController extends Controller
     public function index(Request $request)
     {
         $products = $this->products->all();
+
+        foreach($products as $product)
+        {
+            dd($product);
+        }
     }
 }
