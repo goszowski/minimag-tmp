@@ -15,6 +15,7 @@
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
+        "mcamara/laravel-localization": "^1.5",
         "php-http/guzzle6-adapter": "^2.0",
         "spatie/laravel-csp": "^2.5",
         "swisnl/json-api-client": "^1.1"
