@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         \Swis\JsonApi\Client\Providers\ServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         /*
          * Application Service Providers...
          */
