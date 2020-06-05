@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        \Swis\JsonApi\Client\Providers\ServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -227,6 +227,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'DocumentFactory' => \Swis\JsonApi\Client\Facades\DocumentFactoryFacade::class,
+        'DocumentParser' => \Swis\JsonApi\Client\Facades\DocumentParserFacade::class,
+        'ItemHydrator' => \Swis\JsonApi\Client\Facades\ItemHydratorFacade::class,
+        'ResponseParser' => \Swis\JsonApi\Client\Facades\ResponseParserFacade::class,
+        'TypeMapper' => \Swis\JsonApi\Client\Facades\TypeMapperFacade::class,
     ],
 
 ];
