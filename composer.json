@@ -16,6 +16,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "php-http/guzzle6-adapter": "^2.0",
+        "spatie/laravel-csp": "^2.5",
         "swisnl/json-api-client": "^1.1"
     },
     "require-dev": {
